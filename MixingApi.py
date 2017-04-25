@@ -43,10 +43,15 @@ def combine(lst2,separator=":"):
     lst = []
     for data in lst2:
         lst.append(separator + data + separator)
+    try :
+        for i in xrange(1, len(lst) + 1):
+            els = [list(x) for x in itertools.combinations(lst, i)]
+            combs.extend(els)
+    except :
+        for i in range(1, len(lst) + 1):
+            els = [list(x) for x in itertools.combinations(lst, i)]
+            combs.extend(els)
 
-    for i in xrange(1, len(lst) + 1):
-        els = [list(x) for x in itertools.combinations(lst, i)]
-        combs.extend(els)
 
     result = []
     #print(combs)
