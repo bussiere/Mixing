@@ -21,7 +21,7 @@ def make_error(status_code, sub_code, message, action):
 @app.route('/api/v1/combine', methods=['POST'])
 def loginVanilla():
     content = request.get_json(silent=True)
-    print(content)
+    #print(content)
     if (content['separator'] == None):
         separator = ":"
     else :
@@ -49,7 +49,7 @@ def combine(lst2,separator=":"):
         combs.extend(els)
 
     result = []
-    print(combs)
+    #print(combs)
 
     for data in combs:
         stre = ""
