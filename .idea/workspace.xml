@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e36f937-b017-4a46-ab1b-66087aeea89c" name="Default" comment="" />
+    <list default="true" id="8e36f937-b017-4a46-ab1b-66087aeea89c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testApi/.ipynb_checkpoints/test_login_vanilla-checkpoint.ipynb" afterPath="$PROJECT_DIR$/testApi/.ipynb_checkpoints/test_login_vanilla-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testApi/test_login_vanilla.ipynb" afterPath="$PROJECT_DIR$/testApi/test_login_vanilla.ipynb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +75,8 @@
       <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="124" lean-forward="false" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
+            <state relative-caret-position="301">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -478,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="124" lean-forward="false" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
+        <state relative-caret-position="301">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
