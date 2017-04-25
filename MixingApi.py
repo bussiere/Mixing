@@ -28,7 +28,11 @@ def loginVanilla():
         separator = content['separator']
     if (content['list'] == None) :
         return make_error(400, 1, 'parameter', None)
-    result = combine(content['list'],separator)
+    if (content['deep'] == None):
+        deep = 5
+    else :
+        deep = len(content['list'])+1
+    result = combine(content['list'],separator,deep)
     resp = {'result': result}
     return json.dumps(resp), 200, {'ContentType': 'application/json'}
 
@@ -37,18 +41,18 @@ def loginVanilla():
 
 
 
-def combine(lst2,separator=":"):
+def combine(lst2,separator=":",deep=5):
     lst2 = sorted(lst2)
     combs = []
     lst = []
     for data in lst2:
         lst.append(separator + data + separator)
     try :
-        for i in xrange(1, len(lst) + 1):
+        for i in xrange(1, deep):
             els = [list(x) for x in itertools.combinations(lst, i)]
             combs.extend(els)
     except :
-        for i in range(1, len(lst) + 1):
+        for i in range(1, deep):
             els = [list(x) for x in itertools.combinations(lst, i)]
             combs.extend(els)
 
