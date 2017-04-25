@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e36f937-b017-4a46-ab1b-66087aeea89c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gstart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mixing.py" afterPath="$PROJECT_DIR$/Mixing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MixingApi.py" afterPath="$PROJECT_DIR$/MixingApi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testApi/.ipynb_checkpoints/test_login_vanilla-checkpoint.ipynb" afterPath="$PROJECT_DIR$/testApi/.ipynb_checkpoints/test_login_vanilla-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testApi/test_login_vanilla.ipynb" afterPath="$PROJECT_DIR$/testApi/test_login_vanilla.ipynb" />
@@ -23,7 +20,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Mixing.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mixing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mixing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -83,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MixingApi.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MixingApi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MixingApi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -519,21 +516,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MixingApi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mixing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MixingApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

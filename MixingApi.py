@@ -29,9 +29,9 @@ def loginVanilla():
     if (content['list'] == None) :
         return make_error(400, 1, 'parameter', None)
     if (content['deep'] == None):
-        deep = 5
-    else :
         deep = len(content['list'])+1
+    else :
+        deep = content['deep']
     result = combine(content['list'],separator,deep)
     resp = {'result': result}
     return json.dumps(resp), 200, {'ContentType': 'application/json'}
