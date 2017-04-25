@@ -44,7 +44,7 @@ def combine(lst2,separator=":"):
     for data in lst2:
         lst.append(separator + data + separator)
 
-    for i in range(1, len(lst) + 1):
+    for i in xrange(1, len(lst) + 1):
         els = [list(x) for x in itertools.combinations(lst, i)]
         combs.extend(els)
 
